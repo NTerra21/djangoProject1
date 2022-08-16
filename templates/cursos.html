@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos</title>
+</head>
+<body>
+
+{% for key, value in cursos.items %}
+    <p>el curso {{ key }} tiene como nombre {{ value }}</p>
+{% endfor %}
+
+</body>
+</html>
